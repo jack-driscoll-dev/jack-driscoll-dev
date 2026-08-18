@@ -257,8 +257,8 @@ const timeline = [
     org: "Teragonia",
     period: "2020 — 2021",
     text: [
-      "Contributed to the development of healthcare-focused web products by building reusable interfaces and application features with React.js, Next.js, TypeScript, and TailwindCSS.",
-      "Partnered with proudct and engineering teams to turn requirements into production-ready features, troubleshoot technical issues, and continuously improve code quality and system performance."
+      "Developed responsive web applications and data-driven interfaces for analytics and business intelligence solutions, working with React, JavaScript/TypeScript, and modern frontend technologies to present complex operational data in clear, user-friendly dashboards.",
+      "Built and integrated backend services and data APIs, working with engineering and analytics teams to connect data sources, implement business logic, troubleshoot integration issues, and improve application reliabiltiy and performance."
     ],
   },
 ];
