@@ -248,8 +248,8 @@ const timeline = [
     org: "Connex Digital",
     period: "2021 — 2023",
     text: [
-      "Created responsive and maintainable web experiences with React.js, Next.js, TypeScript, and TailwindCSS, focusing on usability, component reuse, and frontend performance.",
-      "Connected frontend applications with RESTful and GraphQL-based backend services, resolving integration challenges and improving overall application stability and data processing."
+      "Designed and developed custom integration workflows using JavaScript, REST APIs, Webhooks, and third-party services to connect business applications and automate repetitive operational processes across multiple systems.",
+      "Implemented data transformation, validation, error handling, and workflow logic for automated integrations, while debugging API issues and improving reliability, maintainability, and performance of production automation solutions."
     ],
   },
   {

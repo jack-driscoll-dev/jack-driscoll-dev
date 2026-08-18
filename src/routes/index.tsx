@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
         content:
           "MERN stack developer, full-stack JavaScript engineer, React developer, Node.js developer, MongoDB, Express",
       },
-      { property: "og:title", content: "Mahmoud Rahman — MERN Stack Developer" },
+      { property: "og:title", content: "Jack Driscoll — MERN Stack Developer" },
       {
         property: "og:description",
         content:
@@ -27,9 +27,9 @@ export const Route = createFileRoute("/")({
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: `${SITE_URL}/` },
-      { property: "og:site_name", content: "Mahmoud Rahman" },
+      { property: "og:site_name", content: "Jack Driscoll Rahman" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Mahmoud Rahman — MERN Stack Developer" },
+      { name: "twitter:title", content: "Jack Driscoll — MERN Stack Developer" },
       {
         name: "twitter:description",
         content:
@@ -44,10 +44,10 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Mahmoud Rahman",
+          name: "Jack Driscoll",
           url: `${SITE_URL}/`,
           jobTitle: "MERN Stack Developer",
-          email: "mailto:hello@mahmoud.dev",
+          email: "mailto:jackdev981@gmail.com",
           description:
             "Full-stack JavaScript engineer building realtime, data-heavy applications with MongoDB, Express, React and Node.",
           knowsAbout: [
