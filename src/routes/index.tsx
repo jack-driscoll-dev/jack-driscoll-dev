@@ -8,32 +8,32 @@ const SITE_URL = "https://arcane-mern-showcase.lovable.app";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jack Driscoll — Senior Software Developer Portfolio" },
+      { title: "Jack Driscoll — C# / .NET AI Developer" },
       {
         name: "description",
         content:
-          "MERN stack developer building realtime, data-heavy apps with MongoDB, Express, React and Node. Selected work, stack depth and contact.",
+          "C# and .NET AI developer building reliable LLM applications, cloud services, and production software with a strong full-stack background.",
       },
       {
         name: "keywords",
         content:
-          "MERN stack developer, full-stack JavaScript engineer, React developer, Node.js developer, MongoDB, Express",
+          "C# developer, .NET developer, Python AI developer, ASP.NET Core, LLM applications, RAG, Azure, React",
       },
-      { property: "og:title", content: "Jack Driscoll — MERN Stack Developer" },
+      { property: "og:title", content: "Jack Driscoll — C# / .NET AI Developer" },
       {
         property: "og:description",
         content:
-          "Full-stack JavaScript engineer shipping production MongoDB, Express, React and Node applications.",
+          "AI developer shipping production LLM applications and .NET systems, with a strong full-stack engineering background.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: `${SITE_URL}/` },
       { property: "og:site_name", content: "Jack Driscoll Rahman" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jack Driscoll — MERN Stack Developer" },
+      { name: "twitter:title", content: "Jack Driscoll — C# / .NET AI Developer" },
       {
         name: "twitter:description",
         content:
-          "Full-stack JavaScript engineer shipping production MongoDB, Express, React and Node applications.",
+          "AI developer shipping production LLM applications and .NET systems, with a strong full-stack engineering background.",
       },
       { name: "robots", content: "index, follow" },
     ],
@@ -46,17 +46,18 @@ export const Route = createFileRoute("/")({
           "@type": "Person",
           name: "Jack Driscoll",
           url: `${SITE_URL}/`,
-          jobTitle: "MERN Stack Developer",
+          jobTitle: "C# / .NET AI Developer",
           email: "mailto:jackdev981@gmail.com",
           description:
-            "Full-stack JavaScript engineer building realtime, data-heavy applications with MongoDB, Express, React and Node.",
+            "C# and .NET AI developer building reliable LLM applications, cloud services, and production software.",
           knowsAbout: [
-            "MongoDB",
-            "Express",
+            "C#",
+            ".NET",
+            "ASP.NET Core",
+            "Python",
+            "Artificial intelligence",
+            "Large language model applications",
             "React",
-            "Node.js",
-            "TypeScript",
-            "Realtime systems",
           ],
           sameAs: ["https://github.com", "https://linkedin.com"],
         }),

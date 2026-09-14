@@ -23,20 +23,20 @@ function Section({ id, children }: { id: string; children: ReactNode }) {
 }
 
 const marqueeItems = [
-  "Next.js",
+  "C#",
+  ".NET",
+  "ASP.NET Core",
+  "Azure OpenAI",
+  "LLM Applications",
+  "RAG Pipelines",
+  "Prompt Engineering",
+  "Python",
   "React",
-  "NestJS",
-  "FastAPI",
   "Node.js",
-  "Snowflake",
-  "Stripe API",
-  "GraphQL",
-  "Meta Graph API",
-  "Leaflet",
-  "Turborepo",
+  "REST APIs",
   "Docker",
+  "Azure",
   "AWS",
-  "GCP",
   "Git"
 ];
 
@@ -62,23 +62,23 @@ export function Marquee() {
 export function About() {
   return (
     <Section id="about">
-      <SectionHeading index="01" kicker="About" title="Engineering depth, product focus." />
+      <SectionHeading index="01" kicker="About" title="Applied AI, grounded in engineering." />
       <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
         <div data-reveal className="space-y-5 text-base leading-relaxed text-muted-foreground">
           <p>
-            I design and build scalable software products across the full development lifecycle - from architecture and backend systems to polished, high-performance user experiences.
+            I build AI-powered software that is useful beyond the demo: well-designed, observable, secure, and ready for real users. My strongest work sits at the intersection of C#, .NET, Python, cloud architecture, and applied AI.
           </p>
           <p>
-            I enjoy solving complex engineering problems, improving system performance, and building reliable software that can grow with the needs of a business.
+            I enjoy turning ambiguous AI ideas into dependable workflows, from retrieval and prompt orchestration to API design, evaluation, and production delivery.
           </p>
           <p>
-            My work spans web applications, cloud platforms, APIs, data-driven systems, and AI-powered solutions, with a strong focus on clean architecture, maintainability, and production reliability.
+            Before specializing in AI development, I built web applications, integrations, and data-heavy platforms across the JavaScript ecosystem. That background helps me ship AI features as complete products, not isolated models.
           </p>
         </div>
         <ul data-reveal className="panel space-y-4 rounded-xl p-6 font-mono text-sm">
           {[
             ["Location", "Fort Worth · TX 76131"],
-            ["Focus", "Product Engineering & Scalable Systems"],
+            ["Focus", "Applied AI & .NET Systems"],
             ["Availability", "Available immediately"],
             ["Response", "Within 24 hours"],
           ].map(([k, v]) => (
@@ -95,27 +95,33 @@ export function About() {
 
 const stack = [
   {
-    letter: "N",
-    name: "Next.js",
-    detail: "Server-side rendering, API routes, authentication, and optimized web performance.",
+    letter: "C#",
+    name: "C# / .NET",
+    detail: "Strong .NET foundation for maintainable services, domain logic, integrations, and production APIs.",
     level: 98,
   },
   {
-    letter: "R",
-    name: "React",
-    detail: "React 19, TanStack Query & Router, suspense data flow, design systems.",
+    letter: "AI",
+    name: "Applied AI",
+    detail: "LLM applications, RAG workflows, prompt orchestration, evaluation, and human-centered AI features.",
     level: 97,
   },
   {
-    letter: "E",
-    name: "Express",
-    detail: "REST + RPC services, middleware pipelines, JWT/OAuth, rate limiting, queues.",
+    letter: "Py",
+    name: "Python for AI",
+    detail: "Python services, data workflows, model integrations, experimentation, and AI automation.",
+    level: 93,
+  },
+  {
+    letter: "A",
+    name: "ASP.NET Core",
+    detail: "Clean APIs, background services, authentication, integrations, and cloud-ready application architecture.",
     level: 95,
   },
   {
-    letter: "N",
-    name: "Node.js",
-    detail: "Streams, workers, Socket.IO fan-out, Redis caching, observability.",
+    letter: "W",
+    name: "Web Engineering",
+    detail: "React, Node.js, TypeScript, and data-heavy interfaces from a proven full-stack background.",
     level: 94,
   },
 ];
@@ -123,7 +129,7 @@ const stack = [
 export function Stack() {
   return (
     <Section id="stack">
-      <SectionHeading index="02" kicker="Stack" title="Four letters, one continuous runtime." />
+      <SectionHeading index="02" kicker="Stack" title="AI capability with a production backbone." />
       <div className="grid gap-5 sm:grid-cols-2">
         {stack.map((s) => (
           <article
@@ -154,11 +160,19 @@ export function Stack() {
 
 const projects = [
   {
+    name: "Customer 360 Copilot",
+    url: "https://github.com/jack-driscoll-dev/customer-360-ai-copilot",
+    summary:
+      "Built a short demo of an enterprise AI customer-intelligence copilot using ASP.NET Core and React, with governed tool execution across CRM, order, support, and knowledge data.",
+    tags: ["C#", ".NET 8", "ASP.NET Core", "AI Orchestration", "Tool Authorization", "Citations", "React", "TypeScript", "Docker"],
+    metric: "GOVERNED AI DEMO",
+  },
+  {
     name: "Paylance",
     url: "https://paylance.com/",
     summary:
-      "Built a MERN-based FinTech platform for multi-currency wallets, digital payments, transactions, and secure financial workflows.",
-    tags: ["JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB", "JWT", "Payment Integrations", "API Integration", "Github", "Docker", "AWS"],
+      "Built a production FinTech platform for multi-currency wallets, digital payments, transactions, and secure financial workflows.",
+    tags: ["C#", ".NET", "React", "REST APIs", "PostgreSQL", "JWT", "Payment Integrations", "Docker", "AWS"],
     metric: "FENTECH PLATFORM",
   },
   {
@@ -166,7 +180,7 @@ const projects = [
     url: "https://space.id",
     summary:
       "Built an AI-driven crypto intelligence platform with real-time market data, blockchain analytics, and interactive dashboards.",
-    tags: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Redis", "Socket.IO", "Ethers.js", "OpenAI", "AWS"],
+    tags: ["AI Applications", "OpenAI", "C#", ".NET", "React", "Redis", "Real-time Data", "AWS"],
     metric: "REAL-TIME ANALYTICS",
   },
   {
@@ -239,8 +253,8 @@ const timeline = [
     org: "Novatekra",
     period: "2023 — Present",
     text: [
-      "Owned the delivery of client-facing web projects from initial requirements and system design through development, quality assurance, and release to production.",
-      "Engineered feature-rich e-commerce platforms covering product management, purchasing workflows, and online payments while coordinating with design, product, and engineering stakeholders."
+      "Led the design and delivery of AI-powered applications using C#, .NET, and cloud services, translating business requirements into reliable, production-ready software.",
+      "Built intelligent workflows and backend services with LLM integrations, API orchestration, data processing, and evaluation in mind, while collaborating with product and engineering stakeholders from discovery through release."
     ],
   },
   {
@@ -248,8 +262,8 @@ const timeline = [
     org: "Connex Digital",
     period: "2021 — 2023",
     text: [
-      "Designed and developed custom integration workflows using JavaScript, REST APIs, Webhooks, and third-party services to connect business applications and automate repetitive operational processes across multiple systems.",
-      "Implemented data transformation, validation, error handling, and workflow logic for automated integrations, while debugging API issues and improving reliability, maintainability, and performance of production automation solutions."
+      "Designed and developed custom integration workflows and backend services using C#, .NET, REST APIs, webhooks, and third-party services to connect business applications across multiple systems.",
+      "Implemented data transformation, validation, error handling, and workflow logic for automated integrations, while debugging API issues and improving the reliability, maintainability, and performance of production .NET solutions."
     ],
   },
   {
@@ -257,8 +271,8 @@ const timeline = [
     org: "Teragonia",
     period: "2020 — 2021",
     text: [
-      "Developed responsive web applications and data-driven interfaces for analytics and business intelligence solutions, working with React, JavaScript/TypeScript, and modern frontend technologies to present complex operational data in clear, user-friendly dashboards.",
-      "Built and integrated backend services and data APIs, working with engineering and analytics teams to connect data sources, implement business logic, troubleshoot integration issues, and improve application reliabiltiy and performance."
+      "Developed responsive web applications and data-driven interfaces for analytics and business intelligence solutions, pairing React and TypeScript with C#/.NET services to present complex operational data in clear, user-friendly dashboards.",
+      "Built and integrated .NET backend services and data APIs, working with engineering and analytics teams to connect data sources, implement business logic, troubleshoot integration issues, and improve application reliability and performance."
     ],
   },
 ];

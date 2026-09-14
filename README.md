@@ -1,19 +1,17 @@
-# Jack Driscoll — Senior Software Engineer
+# Jack Driscoll — C# / .NET AI Developer
 
-A modern portfolio website showcasing my experience as a Senior Software Engineer, selected projects, technical expertise, and professional background.
+A modern portfolio website showcasing my experience as a C# / .NET AI developer, selected projects, technical expertise, and professional background.
 
 ## Tech Stack
 
-- React
-- TypeScript
-- JavaScript
-- Node.js
-- Express.js
-- MongoDB
-- PostgreSQL
-- AWS
+- C# / .NET
+- ASP.NET Core
+- AI and LLM applications
+- RAG and prompt engineering
+- Azure and AWS
+- React and TypeScript
 - REST APIs
-- AI & LLM Technologies
+- PostgreSQL
 
 ## Features
 

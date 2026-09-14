@@ -3,10 +3,10 @@ import heroMesh from "@/assets/hero-mesh.jpg";
 import { usePointerGlow } from "./use-reveal";
 
 const roles = [
-  "MERN Stack Developer",
-  "React & Node Engineer",
-  "API & Realtime Systems",
-  "Data Modeling",
+  "C# / .NET AI Developer",
+  "Applied AI & LLM Systems",
+  "ASP.NET Core Engineer",
+  "Production-Ready AI Products",
 ];
 
 function useTypewriter(words: string[]) {
@@ -68,12 +68,12 @@ export function Hero() {
               <span className="absolute inline-flex size-full animate-pulse-ring rounded-full bg-primary" />
               <span className="relative inline-flex size-2 rounded-full bg-primary" />
             </span>
-            WEB · CLOUD
+            AI · .NET · CLOUD
           </p>
 
           <h1 className="font-display text-5xl leading-[1.05] font-bold tracking-tight sm:text-6xl lg:text-7xl">
             Jack Driscoll
-            <span className="block text-gradient">Senior Software Engineer</span>
+            <span className="block text-gradient">C# / .NET AI Developer</span>
           </h1>
 
           <p className="mt-6 font-mono text-lg text-primary">
@@ -82,7 +82,7 @@ export function Hero() {
           </p>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-            6+ years of experience designing and delivering scalable, high-performance software systems, with a focus on architecture, backend engineering, modern web applications and reliable production environments.
+            AI developer with a strong .NET foundation and 6+ years of experience building scalable software systems. I turn practical AI capabilities into reliable products using C#, ASP.NET Core, cloud services, and the web engineering experience that got them into production.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
