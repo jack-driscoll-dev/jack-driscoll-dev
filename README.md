@@ -1,6 +1,6 @@
-# Jack Driscoll — C# / .NET AI Developer
+# Jack Driscoll — Senior Software Engineer, AI Engineer
 
-A modern portfolio website showcasing my experience as a C# / .NET AI developer, selected projects, technical expertise, and professional background.
+A modern portfolio website showcasing my experience as a Senior Software Engineer and AI Engineer, selected projects, technical expertise, and professional background.
 
 ## Tech Stack
 
