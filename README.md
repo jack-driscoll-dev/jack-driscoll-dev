@@ -2,17 +2,6 @@
 
 A modern portfolio website showcasing my experience as a Senior Software Engineer and AI Engineer, selected projects, technical expertise, and professional background.
 
-## Tech Stack
-
-- C# / .NET
-- ASP.NET Core
-- AI and LLM applications
-- RAG and prompt engineering
-- Azure and AWS
-- React and TypeScript
-- REST APIs
-- PostgreSQL
-
 ## Features
 
 - Responsive and modern design
