@@ -23,16 +23,15 @@ function Section({ id, children }: { id: string; children: ReactNode }) {
 }
 
 const marqueeItems = [
-  "C#",
-  ".NET",
-  "ASP.NET Core",
-  "Azure OpenAI",
   "LLM Applications",
   "RAG Pipelines",
   "Prompt Engineering",
+  "Azure OpenAI",
   "Python",
+  "TypeScript",
   "React",
   "Node.js",
+  "C# / .NET",
   "REST APIs",
   "Docker",
   "Azure",
@@ -66,7 +65,7 @@ export function About() {
       <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
         <div data-reveal className="space-y-5 text-base leading-relaxed text-muted-foreground">
           <p>
-            I build AI-powered software that is useful beyond the demo: well-designed, observable, secure, and ready for real users. My strongest work sits at the intersection of C#, .NET, Python, cloud architecture, and applied AI.
+            I build AI-powered software that is useful beyond the demo: well-designed, observable, secure, and ready for real users. My strongest work sits at the intersection of software engineering, cloud architecture, and applied AI, and I work across languages and stacks.
           </p>
           <p>
             I enjoy turning ambiguous AI ideas into dependable workflows, from retrieval and prompt orchestration to API design, evaluation, and production delivery.
@@ -78,7 +77,7 @@ export function About() {
         <ul data-reveal className="panel space-y-4 rounded-xl p-6 font-mono text-sm">
           {[
             ["Location", "Fort Worth · TX 76131"],
-            ["Focus", "Applied AI & .NET Systems"],
+            ["Focus", "Applied AI & Full-Stack Systems"],
             ["Availability", "Available immediately"],
             ["Response", "Within 24 hours"],
           ].map(([k, v]) => (
@@ -95,28 +94,22 @@ export function About() {
 
 const stack = [
   {
-    letter: "C#",
-    name: "C# / .NET",
-    detail: "Strong .NET foundation for maintainable services, domain logic, integrations, and production APIs.",
-    level: 98,
-  },
-  {
     letter: "AI",
     name: "Applied AI",
     detail: "LLM applications, RAG workflows, prompt orchestration, evaluation, and human-centered AI features.",
     level: 97,
   },
   {
+    letter: "B",
+    name: "Backend & APIs",
+    detail: "Clean APIs, background services, authentication, and integrations across Python, Node.js, and C# / .NET.",
+    level: 95,
+  },
+  {
     letter: "Py",
     name: "Python for AI",
     detail: "Python services, data workflows, model integrations, experimentation, and AI automation.",
     level: 93,
-  },
-  {
-    letter: "A",
-    name: "ASP.NET Core",
-    detail: "Clean APIs, background services, authentication, integrations, and cloud-ready application architecture.",
-    level: 95,
   },
   {
     letter: "W",
@@ -253,7 +246,7 @@ const timeline = [
     org: "Novatekra",
     period: "2023 — Present",
     text: [
-      "Led the design and delivery of AI-powered applications using C#, .NET, and cloud services, translating business requirements into reliable, production-ready software.",
+      "Led the design and delivery of AI-powered applications using backend and cloud services, translating business requirements into reliable, production-ready software.",
       "Built intelligent workflows and backend services with LLM integrations, API orchestration, data processing, and evaluation in mind, while collaborating with product and engineering stakeholders from discovery through release."
     ],
   },
@@ -262,8 +255,8 @@ const timeline = [
     org: "Connex Digital",
     period: "2021 — 2023",
     text: [
-      "Designed and developed custom integration workflows and backend services using C#, .NET, REST APIs, webhooks, and third-party services to connect business applications across multiple systems.",
-      "Implemented data transformation, validation, error handling, and workflow logic for automated integrations, while debugging API issues and improving the reliability, maintainability, and performance of production .NET solutions."
+      "Designed and developed custom integration workflows and backend services using REST APIs, webhooks, and third-party services to connect business applications across multiple systems.",
+      "Implemented data transformation, validation, error handling, and workflow logic for automated integrations, while debugging API issues and improving the reliability, maintainability, and performance of production solutions."
     ],
   },
   {
@@ -271,8 +264,8 @@ const timeline = [
     org: "Teragonia",
     period: "2020 — 2021",
     text: [
-      "Developed responsive web applications and data-driven interfaces for analytics and business intelligence solutions, pairing React and TypeScript with C#/.NET services to present complex operational data in clear, user-friendly dashboards.",
-      "Built and integrated .NET backend services and data APIs, working with engineering and analytics teams to connect data sources, implement business logic, troubleshoot integration issues, and improve application reliability and performance."
+      "Developed responsive web applications and data-driven interfaces for analytics and business intelligence solutions, pairing React and TypeScript with backend services to present complex operational data in clear, user-friendly dashboards.",
+      "Built and integrated backend services and data APIs, working with engineering and analytics teams to connect data sources, implement business logic, troubleshoot integration issues, and improve application reliability and performance."
     ],
   },
 ];
