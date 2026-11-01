@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/portfolio/Nav";
 import { Hero } from "@/components/portfolio/Hero";
-import { About, Contact, Education, Marquee, Path, Stack, Work } from "@/components/portfolio/Sections";
+import { About, Contact, Education, Marquee, Path, Stack } from "@/components/portfolio/Sections";
 
 const SITE_URL = "https://arcane-mern-showcase.lovable.app";
 
@@ -77,7 +77,6 @@ function Index() {
       <Marquee />
       <About />
       <Stack />
-      <Work />
       <Path />
       <Education />
       <Contact />

@@ -88,10 +88,10 @@ export function Hero() {
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
-              href="#work"
+              href="#path"
               className="group relative overflow-hidden rounded-md bg-primary px-6 py-3 font-mono text-xs tracking-[0.2em] text-primary-foreground uppercase shadow-[var(--glow-soft)] transition-transform duration-300 hover:-translate-y-0.5"
             >
-              <span className="relative z-10">View selected work</span>
+              <span className="relative z-10">View experience</span>
               <span className="absolute inset-0 -translate-x-full bg-[image:var(--gradient-signal)] transition-transform duration-500 group-hover:translate-x-0" />
             </a>
             <a

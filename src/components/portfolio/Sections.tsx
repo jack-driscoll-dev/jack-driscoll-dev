@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { ArrowUpRight } from "lucide-react";
 import { useReveal } from "./use-reveal";
 
 function SectionHeading({ index, title, kicker }: { index: string; title: string; kicker: string }) {
@@ -151,95 +150,6 @@ export function Stack() {
   );
 }
 
-const projects = [
-  {
-    name: "Customer 360 Copilot",
-    url: "https://github.com/jack-driscoll-dev/customer-360-ai-copilot",
-    summary:
-      "Built a short demo of an enterprise AI customer-intelligence copilot using ASP.NET Core and React, with governed tool execution across CRM, order, support, and knowledge data.",
-    tags: ["C#", ".NET 8", "ASP.NET Core", "AI Orchestration", "Tool Authorization", "Citations", "React", "TypeScript", "Docker"],
-    metric: "GOVERNED AI DEMO",
-  },
-  {
-    name: "Paylance",
-    url: "https://paylance.com/",
-    summary:
-      "Built a production FinTech platform for multi-currency wallets, digital payments, transactions, and secure financial workflows.",
-    tags: ["C#", ".NET", "React", "REST APIs", "PostgreSQL", "JWT", "Payment Integrations", "Docker", "AWS"],
-    metric: "FENTECH PLATFORM",
-  },
-  {
-    name: "Space ID",
-    url: "https://space.id",
-    summary:
-      "Built an AI-driven crypto intelligence platform with real-time market data, blockchain analytics, and interactive dashboards.",
-    tags: ["AI Applications", "OpenAI", "C#", ".NET", "React", "Redis", "Real-time Data", "AWS"],
-    metric: "REAL-TIME ANALYTICS",
-  },
-  {
-    name: "Kalio Commerce",
-    url: "https://www.kaliocommerce.com/",
-    summary:
-      "Built a scalable ecommerce platform for product management, online ordering, and customer transactions.",
-    tags: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Redis", "REST APIs", "AWS", "Stripe", "Elasticsearch"],
-    metric: "SCALABLE ECOMMERCE",
-  },
-  {
-    name: "Sevocity",
-    url: "https://www.sevocity.com/",
-    summary:
-      "Built a cloud-based EHR platform for managing patient records, clinical workflows, and healthcare operations.",
-    tags: ["Vue", "TypeScript", "Node.js", "Express", "PostgreSQL", "Redis", "AWS", "HL7", "FHIR", "REST APIs"],
-    metric: "CLINICAL WORKFLOWS",
-  },
-];
-
-export function Work() {
-  return (
-    <Section id="work">
-      <SectionHeading index="03" kicker="Selected work" title="Systems that stayed in production." />
-      <div className="grid gap-5 md:grid-cols-2">
-        {projects.map((p) => (
-          <article
-            key={p.name}
-            data-reveal
-            className="panel group relative overflow-hidden rounded-xl p-7 transition-all duration-500 hover:-translate-y-1.5 hover:border-primary/40"
-          >
-            <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100 grid-bg" />
-            <div className="relative flex items-baseline justify-between gap-4">
-              <h3 className="font-display text-2xl font-semibold">{p.name}</h3>
-              <a
-                href={p.url}
-                target="_blank"
-                rel="noreferrer"
-                aria-label={`Visit ${p.name} website`}
-                title={`Visit ${p.name}`}
-                className="grid size-9 shrink-0 place-items-center rounded-md border border-border/70 text-muted-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/60 hover:text-primary"
-              >
-                <ArrowUpRight className="size-4" />
-              </a>
-            </div>
-            <p className="relative mt-4 text-sm leading-relaxed text-muted-foreground">{p.summary}</p>
-            <p className="relative mt-5 font-mono text-xs tracking-[0.2em] text-primary uppercase">
-              {p.metric}
-            </p>
-            <ul className="relative mt-5 flex flex-wrap gap-2">
-              {p.tags.map((t) => (
-                <li
-                  key={t}
-                  className="rounded-full border border-border/70 px-3 py-1 font-mono text-[11px] text-muted-foreground"
-                >
-                  {t}
-                </li>
-              ))}
-            </ul>
-          </article>
-        ))}
-      </div>
-    </Section>
-  );
-}
-
 const timeline = [
   {
     role: "Lead Software Engineer",
@@ -273,7 +183,7 @@ const timeline = [
 export function Path() {
   return (
     <Section id="path">
-      <SectionHeading index="04" kicker="Path" title="Where the hours went." />
+      <SectionHeading index="03" kicker="Path" title="Where the hours went." />
       <ol className="relative border-l border-border/70 pl-8">
         {timeline.map((t) => (
           <li key={t.role} data-reveal className="relative pb-12 last:pb-0">
@@ -318,7 +228,7 @@ const education = [
 export function Education() {
   return (
     <Section id="education">
-      <SectionHeading index="05" kicker="Education" title="Where the foundations were set." />
+      <SectionHeading index="04" kicker="Education" title="Where the foundations were set." />
       <div className="grid gap-5 md:grid-cols-2">
         {education.map((e) => (
           <article
@@ -345,7 +255,7 @@ export function Contact() {
       <div data-reveal className="panel relative overflow-hidden rounded-2xl px-8 py-16 text-center">
         <div className="pointer-events-none absolute inset-0 aurora opacity-40" />
         <p className="relative font-mono text-[11px] tracking-[0.35em] text-primary uppercase">
-          06 — Contact
+          05 — Contact
         </p>
 
         <h2 className="relative mt-4 font-display text-4xl font-bold tracking-tight sm:text-5xl">
